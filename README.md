@@ -12,3 +12,4 @@ node app.js
 * ![Sign Message](images/3_Sign_Message.png)
 * ![Submit Star](images/4_Submit_Star.png)
 * ![Retrieve Stars](images/5_Retrieve_Stars.png)
+* ![Validate Chain](images/6_Validate_Chain.png)
