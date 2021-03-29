@@ -46,10 +46,10 @@ class Block {
 
             // Comparing if the hashes changed
             if (calculatedHash === hash) { 
-            // Returning the Block is not valid
+            // Returning the Block is  valid
                 resolve(true); 
             }
-            // Returning the Block is valid
+            // Returning the Block is not valid
             else{
                 resolve(false);
             } 
@@ -77,9 +77,7 @@ class Block {
         // Resolve with the data if the object isn't the Genesis block
         if(dataObject && this.height > 0){ 
             return dataObject;
-        } else {
-            reject(new Error('no return of data for genesis block'));
-        }
+        } 
     }
 
 }
